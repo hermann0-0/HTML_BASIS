@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="js/07_jQuery_method.js"></script>
+    <style>
+        .mystyle{
+            background-color: yellow;
+            color: red;
+            font-size: 30pt;
+        }
+        .divstyle{
+            width: 300px;
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>홍길동</li>
+        <li class="mystyle">신사임당</li>
+        <li>강감찬</li>
+        <li>이순신</li>
+    </ul>
+    <div id="myDiv"></div>
+    <input type="button" value="클릭" onclick="insert_text()">
+    <div class="divstyle" id="deleteDiv">
+        <h1>여기는 h1</h1>
+        <h2>여기는 h2</h2>
+    </div>
+    <input type="button" value="DIV 지우기" onclick="delete_div()">
+    <input type="button" value="추가" onclick="add_list()">
+
+</body>
+</html>
